@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ebe9e9;
+}
+
+ul {
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ebe9e9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 32px;
+  text-decoration: none;
+}
+				
+a:hover {
+	color: #b23434;
+}
+
+a:active {
+	color: #ebe9e9;
+}
